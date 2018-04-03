@@ -1,0 +1,115 @@
+.side-bar {
+    background: coral;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content-container {
+    position: absolute;
+    top: 0px;
+    left: 20vw;
+    width: 60%;
+    margin-left: 5em;
+    margin-top: 10%;
+}
+
+.about {
+    height: 70%;
+}
+.route-list {
+    list-style: none;
+}
+
+.full-name-container {
+    font-family: 'Play', sans-serif;
+    width: 70%;   
+}
+.headshot-img {
+    width: 80%;
+    height: auto;
+}
+.side-bar-link {
+    color: black;
+    font-family: 'Play', sans-serif;
+    text-decoration: none;
+}
+
+.side-bar-link:hover { 
+    color: white;
+}
+
+.first-name {
+    font-size: 70pt;
+    color: black;
+    margin-bottom: 0px; 
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.last-name {
+    color: coral;
+}
+
+.social-media-list {
+    display: inline;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.social-media-list-item {
+    display: inline;
+}
+
+.social-media-list-item:hover {
+    color: coral;
+    
+}
+
+.icon-link {
+    color: black;
+}
+
+.icon-link:hover {
+    color: coral;
+}
+
+.icon {
+    width: 30px !important;
+    height: auto !important;
+    margin-right: 10px;
+}
+
+.about-subheading {
+    margin-bottom: 40px;
+    font-size: 20pt;
+    margin-left: 5px;
+    width: 70%;
+}
+
+.summary-wrapper {
+    width: 70%;
+}
+
+.summary {
+    
+}
+
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+} 
+
+
+
+
+
+/* font-family: 'Play', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Permanent Marker', cursive; */
+
+
+
